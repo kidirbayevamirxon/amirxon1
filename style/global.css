@@ -26,3 +26,16 @@
     width: 35px;
     height: 35px;
 }
+.btn1 {
+    background-color: transparent;
+    border: none;
+}
+.btn2 {
+    background-color: transparent;
+    border: none;
+}
+.theme1{
+    width: 320px;
+    height: 510px;
+    background-color: rgba(33, 0, 104, 0.954);
+}
