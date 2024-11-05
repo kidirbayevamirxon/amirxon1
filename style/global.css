@@ -121,6 +121,7 @@ li {
   margin-left: 90%;
 }
 .phone {
+  display: none;
   position: absolute;
   padding-top: 1px;
   width: 320px;
@@ -170,7 +171,7 @@ li {
   width: 20px;
   height: 20px;
   margin-left: 82%;
-  top: 80px;
+  top: 10px;
   position: absolute;
   border: none;
   font-size: 20px;
