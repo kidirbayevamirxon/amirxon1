@@ -4,13 +4,14 @@
   box-sizing: border-box;
 }
 
-a{
+a {
   text-decoration: none;
 }
-ul,li {
+ul,
+li {
   list-style: none;
 }
-.wrapper{
+.wrapper {
   width: 320px;
   margin: 0 auto;
 }
@@ -85,11 +86,11 @@ ul,li {
   margin-top: -4px;
 }
 
-.theme1-btn a{
+.theme1-btn a {
   color: #fff;
 }
 
-.menu{
+.menu {
   width: 320px;
   height: 630px;
   display: none;
@@ -97,26 +98,118 @@ ul,li {
   padding: 10px;
   z-index: 1;
   top: 0px;
-  background-color:rgba(33, 0, 104, 0.954) ;
+  background-color: rgba(33, 0, 104, 0.954);
 }
-.style{
+.style {
   color: #fff;
   font-family: Jost;
-font-size: 30px;
-font-weight: 600;
-line-height: 48px;
-text-align: center;
-
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: center;
 }
-.item{
-text-align: center;
-margin-top: 190px;
+.item {
+  text-align: center;
+  margin-top: 190px;
 }
 
-.btn3{
+.btn3 {
   background-color: rgba(33, 0, 104, 0.954);
   border: none;
   color: #fff;
   font-size: 20px;
   margin-left: 90%;
+}
+.phone {
+  position: absolute;
+  padding-top: 1px;
+  width: 320px;
+  height: 630px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  margin-top: 580px;
+}
+.phone-div {
+  width: 300px;
+  height: 500px;
+  padding-top: 33px;
+  border-radius: 10px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  /* border: 1px solid #cdcdcd; */
+  box-shadow: 1px 10px 7px 7px #cdcdcd;
+}
+.phone-top {
+  display: flex;
+}
+.phone-left-img {
+  margin-left: 22px;
+}
+.phone-span1 {
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25.6px;
+  text-align: left;
+  color: #141024;
+
+  margin-left: 10px;
+}
+.phone-span2 {
+  color: #141024b2;
+  font-family: Jost;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: left;
+  margin-left: 10px;
+}
+.btn-phone {
+  width: 20px;
+  height: 20px;
+  margin-left: 82%;
+  top: 80px;
+  position: absolute;
+  border: none;
+  font-size: 20px;
+  background-color: transparent;
+  font-weight: bolder;
+}
+.btn4 {
+  width: 260px;
+  height: 46px;
+  background: #d52027;
+  margin: 20px;
+  border: none;
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: center;
+  color: #ffffff;
+}
+.text {
+  width: 260px;
+  height: 176px;
+  margin-left: 20px;
+}
+.text-p {
+  font-family: Jost;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+  color: linear-gradient(180deg, #141024 0%, rgba(20, 16, 36, 0) 100%);
+
+
+}
+.text-s{
+  font-family: Jost;
+font-size: 16px;
+font-weight: 600;
+line-height: 25.6px;
+text-align: left;
+color: #141024;
 }
